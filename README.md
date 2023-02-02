@@ -11,7 +11,7 @@ Se trata de una API REST desarrollada en Django, que permite la gestión libros 
 
 ## ASIR
 
-Para dar inicio a esta "documentación" me gustaria indicar como "iniciar" el entorno virtual, para ello se debe ejecutar el siguiente comando en una consola de comandos (CMD o la del propio IDE) (Esta parte esta pensada para los comppañeros de ASIR):
+Para dar inicio a esta "documentación" me gustaria indicar como "iniciar" el entorno virtual, para ello se debe ejecutar el siguiente comando en una consola de comandos (CMD o la del propio IDE) (Esta parte esta pensada para los compañeros de ASIR):
 
 ``` python -m venv venv ``` IMPORTANTE: Todo esto mientras estamos en la carpeta del proyecto.
 
