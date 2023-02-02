@@ -1,5 +1,5 @@
 # DjangoRestAPI
-Buenas, soy Martin Vilasanchez y soy el alumno de segundo encargado de realizar la api sobre la que vais a trabajar en el proyecto para aprender a manejar peticiones a un backk desde el front.
+Buenas, soy Martin Vilasanchez y soy el alumno de segundo encargado de realizar la api sobre la que vais a trabajar en el proyecto para aprender a manejar peticiones a un back desde el front.
 
 Para cualquier duda sobre este proyecto o la documentacion que la acompaña, consultadle a vustro profesor de la asignatura, para que os indique si el problema es de mi parte del trabajo o si es una competencia vuestra.
 
