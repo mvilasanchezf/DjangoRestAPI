@@ -1,40 +1,50 @@
 # DjangoRestAPI
-Buenas, soy Martin Vilasanchez y soy el alumno de segundo encargado de realizar la api sobre la que vais a trabajar en el proyecto para aprender a manejar peticiones a un back desde el front.
+Buenas, soy Martín Vilasánchez y soy el alumno de segundo encargado de realizar la API sobre la que vais a trabajar en el proyecto para aprender a manejar peticiones a un back desde el front.
 
-Para cualquier duda sobre este proyecto o la documentacion que la acompaña, consultadle a vustro profesor de la asignatura, para que os indique si el problema es de mi parte del trabajo o si es una competencia vuestra.
+Para cualquier duda sobre este proyecto o la documentación que la acompaña, consultadle a vuestro profesor de la asignatura, para que os indique si el problema es de mi parte del trabajo o si es una competencia vuestra.
 
-O en caso de que sea urgente asaltadme caundo querais (no muerdo).
+O en caso de que sea urgente asaltadme cuando queráis (no muerdo).
 
-Sin mucho mas que añadir os dejo con la documentación.
+Sin mucho más que añadir os dejo con la documentación.
 
 Se trata de una API REST desarrollada en Django, que permite la gestión libros con sus respectivas categorías.
 
+
 ## ASIR
 
-Para dar inicio a esta "documentación" me gustaria indicar como "iniciar" el entorno virtual, para ello se debe ejecutar el siguiente comando en una consola de comandos (CMD o la del propio IDE) (Esta parte esta pensada para los compañeros de ASIR):
+### Instalar Python
+
+Para poder trabajar con Django, se debe tener instalado Python en el equipo. Para ello se debe descargar el instalador de Python desde la página oficial de Python: https://www.python.org/downloads/ y seguir los pasos de instalación. Tambien hay que marcar el checkbox de "Add Python 3.8 to PATH" para poder ejecutar Python desde la consola de comandos.
+
+### Crear el entorno virtual
+
+Ahora indicaré como "iniciar" el entorno virtual, para ello se debe ejecutar el siguiente comando en una consola de comandos (CMD o la del propio IDE) (Esta parte esta pensada para los compañeros de ASIR):
 
 ``` python -m venv venv ``` IMPORTANTE: Todo esto mientras estamos en la carpeta del proyecto.
 
 Una vez creado el entorno virtual, se debe activar con el siguiente comando:
 
-``` .\venv\Scripts\activate ``` IMPORTANTE: Todo esto mientras estamos en la carpeta del proyecto.
+``` .\venv\Scripts\activate ``` 
+
+### Instalar Django y Django Rest Framework
 
 Una vez dentro del entorno virtual se debe instalar Django con el siguiente comando:
 
-``` pip install django ``` IMPORTANTE: Todo esto mientras estamos en la carpeta del proyecto.
-y tambien se debe instalar Django Rest Framework con el siguiente comando:
+``` pip install django ``` 
 
-``` pip install djangorestframework ``` IMPORTANTE: Todo esto mientras estamos en la carpeta del proyecto.
+Tambien se debe instalar Django Rest Framework con el siguiente comando:
+
+``` pip install djangorestframework ``` 
 
 A partir de este momento, ya podemos ejecutar el servidor de Django, para ello se debe ejecutar el siguiente comando:
 
-``` python manage.py runserver ``` en la nueva consola de comandos para este espacio virtual.
+``` python manage.py runserver ``` En la nueva consola de comandos para este espacio virtual.
 
 Tambien hay que tenre en cuenta que esta API esta funcionando en el puerto 8000, por lo que se debe tener en cuenta para poder acceder a ella.
 
 ## DAM
 
-Apartir de este punto ya entraria a trabajar el equipo de Desarrollo, pero como no es el caso, os dejo con la documentación de la API.
+Apartir de este punto ya entraria a trabajar el equipo de Desarrollo (DAM), os dejo con la documentación de la API.
 
 ## API REST
 
@@ -48,7 +58,7 @@ A la hora de gestionar los libros, se debe tener en cuenta los siguientes campos
 - **titulo**: Título del libro. (Tipo de dato: string)
 - **autor**: Autor del libro. (Tipo de dato: string)
 - **precio**: Precio del libro. (Tipo de dato: decimal (es un string, mismo perro distinto collar))
-- **descripcion**: Descripción del libro. (Tipo de dato: string)
+- **descripcion**: Descripción del libro. (Tipo de dato: text)
 
 Estos campos son obligatorios a la hora de crear un libro. Excepto el campo **id**, que es autoincremental.
 Tambien hay que tener en cuenta que el campo **precio** es un campo de tipo string, por lo que se debe introducir un valor numérico, pero en formato string. Por ejemplo: "10.50". Esto es debido a que el campo **precio** es un campo de tipo decimal, y Django no permite el uso de este tipo de dato en las peticiones POST y PUT. Por lo que se ha optado por usar un campo de tipo string. Esto no afecta a la funcionalidad de la API. Aun así, se debe tener en cuenta a la hora de realizar las peticiones.
@@ -95,6 +105,6 @@ Esta nueva URL daberia indicarosla vuestro profesor, pero por si acaso, dejo por
 
 ``` http://<URL_PRODUCCION>/api/libros/<id>/ ```
 
- Una vez mas os recuerdo que si tenéis cualquier duda, podéis hablar conmigo o con vuestro profesor. Que si lo considera necesario os indicara que contateis conmigo.
+Una vez mas os recuerdo que si tenéis cualquier duda, podéis hablar conmigo o con vuestro profesor. Que si lo considera necesario os indicara que contateis conmigo.
 
 Y este debería ser el final de la documentación de la API. Espero que os haya sido de ayuda, o como minimo esclarecedor.
