@@ -106,6 +106,4 @@ Esta nueva URL daberia indicarosla vuestro profesor, pero por si acaso, dejo por
 
 ``` http://<URL_PRODUCCION>/api/libros/<id>/ ```
 
-Una vez mas os recuerdo que si tenéis cualquier duda, podéis hablar conmigo o con vuestro profesor. Que si lo considera necesario os indicara que contateis conmigo.
-
-Y este debería ser el final de la documentación de la API. Espero que os haya sido de ayuda, o como minimo esclarecedor.
+Y este es el final de la documentación. Espero que os haya sido de ayuda.
