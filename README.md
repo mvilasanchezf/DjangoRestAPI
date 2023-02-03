@@ -7,7 +7,7 @@ O en caso de que sea urgente asaltadme cuando queráis (no muerdo).
 
 Sin mucho más que añadir os dejo con la documentación.
 
-Se trata de una API REST desarrollada en Django, que permite la gestión libros con sus respectivas categorías.
+Se trata de una API REST desarrollada en Django, que permite la gestión de libros con sus respectivas categorías.
 
 
 ## ASIR
@@ -78,6 +78,7 @@ A continuación se detallan las peticiones que se pueden realizar a la API para 
 Para obtener todos los libros, se debe realizar una petición GET a la siguiente URL:
 
 ``` http://localhost:8000/api/libros/ ```
+
 Para obtener un libro en concreto, se debe realizar una petición GET a la siguiente URL:
 
 ``` http://localhost:8000/api/libros/<id>/ ```
