@@ -77,33 +77,33 @@ A continuación se detallan las peticiones que se pueden realizar a la API para 
 
 Para obtener todos los libros, se debe realizar una petición GET a la siguiente URL:
 
-``` http://localhost:8000/api/libros/ ```
+``` http://localhost:8000/api/projects/ ```
 
 Para obtener un libro en concreto, se debe realizar una petición GET a la siguiente URL:
 
-``` http://localhost:8000/api/libros/<id>/ ```
+``` http://localhost:8000/api/projects/<id>/ ```
 #### POST
 
 Para crear un libro, se debe realizar una petición POST a la siguiente URL:
 
-``` http://localhost:8000/api/libros/ ```
+``` http://localhost:8000/api/projects/ ```
 #### PUT
 
 Para actualizar un libro, se debe realizar una petición PUT a la siguiente URL:
 
-``` http://localhost:8000/api/libros/<id>/ ```
+``` http://localhost:8000/api/projects/<id>/ ```
 #### DELETE
 
 Para eliminar un libro, se debe realizar una petición DELETE a la siguiente URL:
 
-``` http://localhost:8000/api/libros/<id>/ ```
+``` http://localhost:8000/api/projects/<id>/ ```
 
 Estas peticiones estas documentadas para hacerse en un entorno local, pero si se quiere hacer en un entorno de producción, se debe cambiar la URL por la URL de producción. Por ejemplo, si se quiere hacer en un entorno de producción, se debe cambiar la URL por la siguiente:
 
 Esta nueva URL daberia indicarosla vuestro profesor, pero por si acaso, dejo por aquí el esquema de como hacerlo.
 
-``` http://<URL_PRODUCCION>/api/libros/ ```
+``` http://<URL_PRODUCCION>/api/projects/ ```
 
-``` http://<URL_PRODUCCION>/api/libros/<id>/ ```
+``` http://<URL_PRODUCCION>/api/projects/<id>/ ```
 
 Y este es el final de la documentación. Espero que os haya sido de ayuda.
