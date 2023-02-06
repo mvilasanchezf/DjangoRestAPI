@@ -87,11 +87,12 @@ Para obtener un libro en concreto, se debe realizar una petición GET a la sigui
 Para crear un libro, se debe realizar una petición POST a la siguiente URL:
 
 ``` http://localhost:8000/api/projects/ ```
-#### PUT
+#### PATCH
 
-Para actualizar un libro, se debe realizar una petición PUT a la siguiente URL:
-
+Para actualizar un libro, se debe realizar una petición PATCH a la siguiente URL:
+    
 ``` http://localhost:8000/api/projects/<id>/ ```
+
 #### DELETE
 
 Para eliminar un libro, se debe realizar una petición DELETE a la siguiente URL:
